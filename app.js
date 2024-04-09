@@ -1,8 +1,9 @@
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
+exibeMensagemInicial();
 let numeroSecreto = geraNumeroAleatorio();
 let tentativa = 1;
-exibeMensagemInicial();
+
 function verificarChute() {
     let chute = document.querySelector('input').value; // pega o valor dentro do input
     if (chute == numeroSecreto) {
